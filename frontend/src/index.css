@@ -1,0 +1,110 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+label {
+  font-size: 20px;
+}
+
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+}
+
+body {
+  /* background: url('../src/Assests/three.jpg') no-repeat; */
+  background: url('../src/Assests/three.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: url('../Assests/one.jpg') no-repeat; */
+
+}
+
+.container {
+
+  margin-top: 90px;
+  background-color: #fff;
+  padding: 32px 48px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.container>h1 {
+  margin-bottom: 20px;
+}
+
+.container>form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container>div {
+  display: flex;
+  flex-direction: column;
+}
+
+.container input {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.container input::placeholder {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="file"] {
+  padding: 5px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+
+button {
+  background-color: #060b26;
+  border: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}

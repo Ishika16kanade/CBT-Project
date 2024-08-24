@@ -1,0 +1,73 @@
+back {
+    background: url('../Assests/one.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: #060b26;
+    /* background: transparent; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.navbar a {
+    position: ralative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    top: 100%;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+
+/* .navbar a:hover::before {
+    width: 100%;
+
+} */
+/* .landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #3b82f6, #9333ea);
+    color: white;
+} */
+
+.content {
+    text-align: center;
+}
+
+.full-name {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
